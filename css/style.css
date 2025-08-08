@@ -1,0 +1,62 @@
+span {
+    color: orange;
+}
+
+section {
+    /* background-color:yellow; */
+    background-image: url("../images/main-visual.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* 高さ */
+    height: 400px;
+    /* 幅 */
+    width: 100%;
+    /* 上の余白 */
+    padding-top:60px;
+    /* 余白計算を含み計算にする */
+    box-sizing: border-box;
+}
+
+.wrapper {
+    /* 最大でも1000pxまで */
+    max-width: 1000px;
+    margin:0 auto 0;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.main-catch {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.cta-button {
+    color: white;
+    background-color: orange;
+    /* リンク下線 */
+    text-decoration: none;
+    /* フォント強調 */
+    font-weight: bold;
+    /* 内余白 */
+    padding: 3% 5%;
+    /* 角の丸み */
+    border-radius: 8px;
+    /* 性質を変更する */
+    display: block;
+    text-align: center;
+    /* 幅を絞る */
+    width: 30%;
+    /* 外側の余白 */
+    /* margin-top: 20px; */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    margin: 20px auto 0px;
+
+}
+
+}
